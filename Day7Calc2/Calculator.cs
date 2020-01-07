@@ -8,5 +8,10 @@ namespace Day7Calc2
         {
             return Addition.Sum(a, b);
         }
+
+        public int Divide(int a, int b)
+        {
+            return Division.Quotient(a, b);
+        }
     }
 }
